@@ -3,3 +3,18 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+td, th {
+  text-align: center;
+  vertical-align: middle !important;
+  font-weight: bold;
+}
+
+td:first-of-type, td:first-of-type > div {
+  width: 250px;
+  height: 200px;
+}
+
+svg {
+  height: 150px;
+}
